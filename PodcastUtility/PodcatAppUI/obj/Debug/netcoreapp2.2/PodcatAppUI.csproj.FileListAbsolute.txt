@@ -1,0 +1,12 @@
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcatAppUI.deps.json
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcatAppUI.runtimeconfig.json
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcatAppUI.runtimeconfig.dev.json
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcatAppUI.dll
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcatAppUI.pdb
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.csprojAssemblyReference.cache
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.AssemblyInfo.cs
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.dll
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcatAppUI.pdb
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\Menu1.txt
