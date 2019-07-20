@@ -6,9 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Menu1.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <PackageReference Include="taglib" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PodcastLib\PodcastLib.csproj" />
   </ItemGroup>
 
 </Project>

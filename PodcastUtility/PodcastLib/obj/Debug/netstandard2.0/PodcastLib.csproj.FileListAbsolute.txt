@@ -1,4 +1,3 @@
-C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\bin\Debug\netstandard2.0\podcast.json
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\bin\Debug\netstandard2.0\PodcastLib.deps.json
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\bin\Debug\netstandard2.0\PodcastLib.dll
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\obj\Debug\netstandard2.0\PodcastLib.csprojAssemblyReference.cache
@@ -8,3 +7,4 @@ C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\obj\Debug
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\bin\Debug\netstandard2.0\PodcastLib.pdb
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\obj\Debug\netstandard2.0\PodcastLib.dll
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\obj\Debug\netstandard2.0\PodcastLib.pdb
+C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcastLib\bin\Debug\netstandard2.0\settings.json

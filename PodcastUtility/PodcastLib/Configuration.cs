@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace PodcastLib
@@ -15,14 +17,18 @@ namespace PodcastLib
         public bool ArchiveFiles { get; set; }
 
         public Configuration()
-        {            
-        }
-
-        public static Configuration GetConfiguration()
         {
-            string json = File.ReadAllText(Path.Combine(Environment.CurrentDirectory + "podcast.json"));
-            Configuration config = JsonConvert.DeserializeObject<Configuration>(json);
-            return config;
+            var configurationBuilder = new ConfigurationBuilder()
+                .SetBasePath(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location))
+                .AddJsonFile("settings.json", true)
+                .AddEnvironmentVariables();
+
+            var configuration = configurationBuilder.Build();
+
+            SourcePath = configuration["SourcePath"];
+            //DestinationPath = configuration[""];
+            ArchiveFiles = Convert.ToBoolean(configuration["ArchiveFiles"]);
+            ArchivePath = configuration["ArchivePath"];
         }
     }
 }

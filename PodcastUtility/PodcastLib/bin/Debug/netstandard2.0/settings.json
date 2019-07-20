@@ -1,6 +1,5 @@
 {
   "SourcePath": "C:\\Users\\John\\Music\\iTunes\\iTunes Media\\Podcasts",
-  "DestinationPath": "E:\\",
   "ArchivePath": "D:\\Podcast Storage",
-  "ArchiveFiles":  "True"
+  "ArchiveFiles": "True"
 }

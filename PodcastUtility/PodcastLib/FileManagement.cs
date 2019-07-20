@@ -7,12 +7,33 @@ namespace PodcastLib
 {
     public class FileManagement
     {
+        public bool CheckIfThereAreDownloadedPodcasts()
+        {
+            try
+            {
+                var config = new Configuration();
+                DirectoryInfo di = new DirectoryInfo(config.SourcePath);
+                DirectoryInfo[] dia = di.GetDirectories();
+                foreach (DirectoryInfo dir in dia)
+                {                    
+                    FileInfo[] fia = dir.GetFiles();
+                    if (fia.Length > 0)
+                        return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                string strError = ex.Message;
+            }
+            return false;
+        }
+
         public bool ArchiveFiles()
         {
             bool result = false;
             try
             {
-                var config = Configuration.GetConfiguration();
+                var config = new Configuration();
                 DirectoryInfo di = new DirectoryInfo(config.SourcePath);
                 DirectoryInfo[] dia = di.GetDirectories();
                 foreach (DirectoryInfo dir in dia)
@@ -24,7 +45,14 @@ namespace PodcastLib
                         if (!Directory.Exists(CopyPath))
                             Directory.CreateDirectory(CopyPath);
                         if (fi.Name.Contains(".mp3") || fi.Name.Contains(".mp4"))
-                            File.Move(fi.FullName, Path.Combine(CopyPath + fi.Name));
+                        {
+                            if (File.Exists(Path.Combine(CopyPath, fi.Name)))
+                            {
+                                File.Delete(fi.FullName);
+                                continue;
+                            }
+                            File.Move(fi.FullName, Path.Combine(CopyPath, fi.Name));
+                        }
                     }
                 }
                 result = true;
@@ -36,12 +64,12 @@ namespace PodcastLib
             return result;
         }
 
-        public bool LoadUsbDrive()
+        public bool LoadUsbDrive(string path)
         {
             bool result = false;
             try
             {
-                var config = Configuration.GetConfiguration();
+                var config = new Configuration();
                 DirectoryInfo di = new DirectoryInfo(config.SourcePath);
                 DirectoryInfo[] dia = di.GetDirectories();
                 foreach (DirectoryInfo dir in dia)
@@ -49,7 +77,7 @@ namespace PodcastLib
                     FileInfo[] fia = dir.GetFiles();
                     foreach (FileInfo fi in fia)
                     {
-                        File.Copy(fi.FullName, Path.Combine(config.DestinationPath, fi.Name));
+                        File.Copy(fi.FullName, Path.Combine(path, fi.Name));
                     }
                 }
                 result = true;
@@ -67,6 +95,8 @@ namespace PodcastLib
             FileInfo[] fia = di.GetFiles();
             foreach(FileInfo fi in fia)
             {
+                if (fi.Extension != ".mp3")
+                    continue;
                 File.Delete(fi.FullName);
             }
         }

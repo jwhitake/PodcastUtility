@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodcastLib", "PodcastLib\PodcastLib.csproj", "{82DAA611-443B-4224-9E83-F62551202645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodcatAppUI", "PodcatAppUI\PodcatAppUI.csproj", "{4731212F-9A4D-44F7-9D7D-B1F41195CDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodcastAppConsole", "PodcatAppUI\PodcastAppConsole.csproj", "{4731212F-9A4D-44F7-9D7D-B1F41195CDE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{BD35D6ED-6011-4CC3-9CAF-C44D04308D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4731212F-9A4D-44F7-9D7D-B1F41195CDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4731212F-9A4D-44F7-9D7D-B1F41195CDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4731212F-9A4D-44F7-9D7D-B1F41195CDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD35D6ED-6011-4CC3-9CAF-C44D04308D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD35D6ED-6011-4CC3-9CAF-C44D04308D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD35D6ED-6011-4CC3-9CAF-C44D04308D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD35D6ED-6011-4CC3-9CAF-C44D04308D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
