@@ -12,7 +12,6 @@ namespace PodcastLib
     {
 
         public string SourcePath { get; set; }
-        public string DestinationPath { get; set; }
         public string ArchivePath { get; set; }
         public bool ArchiveFiles { get; set; }
 
@@ -24,9 +23,7 @@ namespace PodcastLib
                 .AddEnvironmentVariables();
 
             var configuration = configurationBuilder.Build();
-
             SourcePath = configuration["SourcePath"];
-            //DestinationPath = configuration[""];
             ArchiveFiles = Convert.ToBoolean(configuration["ArchiveFiles"]);
             ArchivePath = configuration["ArchivePath"];
         }

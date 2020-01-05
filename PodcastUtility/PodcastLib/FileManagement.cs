@@ -95,7 +95,7 @@ namespace PodcastLib
             FileInfo[] fia = di.GetFiles();
             foreach(FileInfo fi in fia)
             {
-                if (fi.Extension != ".mp3")
+                if (fi.Extension != ".mp3" && fi.Extension != ".mp4")
                     continue;
                 File.Delete(fi.FullName);
             }

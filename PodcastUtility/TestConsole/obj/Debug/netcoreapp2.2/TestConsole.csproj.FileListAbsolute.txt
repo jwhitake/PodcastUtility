@@ -4,7 +4,6 @@ C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\bin\Debu
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.dll
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.pdb
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.csprojAssemblyReference.cache
-C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.csproj.CoreCompileInputs.cache
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.AssemblyInfoInputs.cache
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.AssemblyInfo.cs
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.dll

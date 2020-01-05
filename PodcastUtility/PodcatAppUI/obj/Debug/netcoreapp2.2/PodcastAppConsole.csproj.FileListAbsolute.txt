@@ -5,7 +5,6 @@ C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debu
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcastAppConsole.dll
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\bin\Debug\netcoreapp2.2\PodcastAppConsole.pdb
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcastAppConsole.csprojAssemblyReference.cache
-C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcastAppConsole.csproj.CoreCompileInputs.cache
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcastAppConsole.AssemblyInfoInputs.cache
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcastAppConsole.AssemblyInfo.cs
 C:\Users\John\source\repos\C#\PodcastUtility\PodcastUtility\PodcatAppUI\obj\Debug\netcoreapp2.2\PodcastAppConsole.dll
